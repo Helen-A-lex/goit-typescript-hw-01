@@ -3,7 +3,7 @@
     "rootDir": "./src",
     "outDir": "./dist",
     "target": "es2019",
-    "lib": ["ES2021"],
+    "lib": ["dom", "ES2021"],
     "experimentalDecorators": true,
     "module": "ES2020",
     "moduleResolution": "node",
@@ -15,7 +15,8 @@
 
     "strictNullChecks": true,
 
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "sourceMap": true,
   },
   "include": ["**/*.ts"]
 }
